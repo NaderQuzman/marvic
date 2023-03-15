@@ -1,0 +1,163 @@
+* , *:after, *:before{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand {
+    color: DodgerBlue;
+    font-size: 30px;
+   
+}
+.row{
+    width: 124%;
+
+}
+
+.navbar-brand:focus,.navbar-brand:hover
+{
+color: #1f94d2;;    
+}
+.d-inline-flex:focus,.d-inline-flexand:hover
+{
+    color: #1f94d2;
+}
+.d-inline-flex a{
+    font-size: 20px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+}
+.navbar .container
+{
+    max-width: 1600px;
+}
+.about{
+    width: 86%;
+    height:auto ;
+ 
+    padding:50px 0 50px 0 ;
+}
+.narrow{
+    padding-left: 22%;
+    margin-bottom: 5%;
+}
+.narrow h1,section.product div.narrow h1 {
+    font-size: 2em;
+    color: dodgerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.narrow p,section.product div.narrow p{
+    line-height: 2;
+}
+.about img{
+    width: 100%;
+    height: auto;
+    padding: 3px;
+}
+.about div.img{
+    background-image:url(window2.jpg) ;
+    width: 100%;
+    height: 837px;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 2%;
+}
+.about div.img p{
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    font-size: 20px;;
+}
+section.service {
+    width: 100%;
+    height: 460px;
+    background-image: url(air.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+section.service p {
+    color: 20px;
+    border: 2px solid dodgerblue;
+    color: dodgerblue;
+    font-weight: bolder;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 16%;
+    font-size: 25px;
+    text-transform:uppercase ;
+    margin-right: -23px
+}
+
+/**.col-lg-4{
+    width: 100%;
+    height: 33%;
+    padding-top: 23px;
+}**/
+.product{
+    
+        width: 86%;
+        height: auto;
+        padding: 50px 0 50px 0;
+    }
+    .product img{
+        width: 100%;
+        height: 250px;
+    }
+    section.choose{
+        width: 100%;
+        height: auto;
+        padding: 50px 0;
+        margin: 80px 0;
+        background-color: #dfdfdf;
+
+    }
+    section.choose i,
+    section.choose div.part {
+        float: left;
+    }
+section.choose div.part p,section.choose div.part h2
+{
+    margin: 0;
+
+}
+section.choose i{
+    margin-right: 5%;
+    position: relative;
+    top: 8px;
+    color: rgb(0, 71, 143);
+}
+section.choose div.part h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: dodgerblue;
+}
+section.choose div.part p{
+    font-size: 20px;
+    margin-top: 2%;
+}
+footer{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+
+}
+footer p {
+    font-size: 20px;
+    color: dodgerblue;
+    font-weight: bold;
+}
+footer i {
+    padding: 8px ;
+    margin-top: -1%;
+margin-right: 5px;
+    background-color: dodgerblue;
+    color: #fff;
+    border-radius: 25px;
+}
+
